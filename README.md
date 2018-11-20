@@ -14,13 +14,19 @@ Use the terminal to connect by ssh to the virtual machine
 
 Use the following lines in the terminal to get the 7.0.1 version of ServiceMix, set the correct routing for the messages and execute the ServiceMix:
 
-```bash
+```shell
 wget https://www-us.apache.org/dist/servicemix/servicemix-7/7.0.1/apache-servicemix-7.0.1.zip  
+
 unzip apache-servicemix-7.0.1.zip  
+
 cd apache-servicemix-7.0.1/deploy/  
+
 wget https://raw.githubusercontent.com/DxMortem/Arem-TallerPatronesArquitectura/master/MessageRoute.xml  
+
 cd ..  
-./bin/servicemix```
+
+./bin/servicemix
+```
 
 Then clone the repository, change "localhost" on the connection factory constructor for the virtual machine ip (in Client and HelloWorldConsumer classes).
 
