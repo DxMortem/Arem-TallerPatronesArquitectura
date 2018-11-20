@@ -20,7 +20,7 @@ public class Client {
         ex.run();
     }
 
-    public void run(){
+    private void run(){
         CamelContext context = new DefaultCamelContext();
         //String brokerURL = args[0];
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://localhost:61616?jms.useAsyncSend=true");
