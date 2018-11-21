@@ -5,6 +5,10 @@
 Student of System Engineering   
 Escuela Colombiana de Ingeniería Julio Garavito.
 
+## Architecture Document
+
+You can see a simple explication of the architecture of ServiceMix and the example developed in the next link of [Google Drive](https://drive.google.com/open?id=1CU7oZQuZKPNKg_bZ5x97Q7jzx3kPJU_p)
+
 ## AWS Instructions
 Have the EC2 virtual machine created with the security permissions to access to the 61616 port
 
